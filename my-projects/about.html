@@ -1,0 +1,69 @@
+<!-- test_about.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>about.html Tests</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header>
+      <select class="language-switcher">
+        <option value="en" selected>English</option>
+        <option value="de">German</option>
+    
+      </select>
+      <h1>About FastMove <span>Int</span></h1>
+      <nav>
+        <ul>
+          <li><a data-t="nav.home" href="home">Home</a></li>
+          <li><a data-t="nav.products" href="products.html">Products</a></li>
+          <li><a data-t="nav.testimonials" href="testimonials.html">Testimonials</a></li>
+          <li><a data-t="nav.contact" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+   
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2 data-t="test.title" >What Our Customers Say</h2>
+      <p  class="testimonial" data-t="test.pro">
+        "EcoCool products have transformed our household, combining style with
+        sustainability!" - Jamie L.
+      </p>
+      <p data-t="-" class="testimonial">
+        "The best eco-friendly appliances we've ever used!" - Alex P.
+      </p>
+    </section>
+
+    <div class="content" id="hero" >
+      <p class="title" data-t="hero.live">
+        At FastMove Int, we specialize in transporting goods with speed, safety,
+        and reliability. Our mission is simple — to keep businesses and people
+        connected by ensuring their cargo arrives on time, every time.
+      </p>
+      <p data-t="heros.lives">
+        With years of experience in logistics and freight management, we provide
+        tailored solutions for local, regional, and international
+        transportation. Whether its small parcels or large-scale shipments, we
+        handle every delivery with the highest level of care and
+        professionalism.
+      </p>
+      <p data-t="hero.live">
+        What sets us apart is our commitment to efficiency and trust. We combine
+        modern technology with a dedicated team to track, manage, and deliver
+        your goods seamlessly. At FastMove Int, we don`t just move packages — we
+        move opportunities, growth, and peace of mind for our customers.
+      </p>
+      <p data-t="hero.live">
+        As we continue to expand globally, our vision remains clear: to be a
+        reliable partner in logistics, making the world move faster and smarter.
+      </p>
+      <button class="fun">Order Now</button>
+    </div>
+
+ <script type="module" src="/src/about.ts"></script>
+  </body>
+</html>

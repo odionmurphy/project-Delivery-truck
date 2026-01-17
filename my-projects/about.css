@@ -1,0 +1,144 @@
+:root{
+   --gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #ded15b,
+        #1d2be6,
+        #5bc0de,
+       
+        #98ee52
+    );
+}
+
+body{
+   
+
+    background-image: var(--gradient);
+    background-size: 400%;
+    max-height: 70px;
+}
+.box {
+ 
+}
+
+
+
+
+
+ header {
+     position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+ 
+                background-color: #00695c;
+                color: #fff;
+                padding: 1em 0;
+                text-align: center;
+            }
+ nav ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                gap: 1.5em;
+            }
+
+nav ul a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+
+     .testimonials{
+        position: relative;
+        top: 7em;
+     }
+            
+
+.content{
+    position: relative;
+    top: 30em;
+    background: transparent;
+width: 90vw;
+margin: 40px;
+padding: 3em;
+box-shadow: 0 0 3em rgba(0, 0, 0, 0.1);
+border-radius: 8px; 
+}
+
+#hero {
+                background: linear-gradient(20deg, #004d40 30%, #00695c, #00695c);
+                color: white;
+                padding: 4em 1em;
+                text-align: center;
+                position: relative;
+                top: 20px;
+            }
+
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+              .testimonials {
+               
+                
+                color: #fff;
+                padding: 2em 1em;
+                text-align: center;
+            }
+
+            .testimonial {
+                font-style: italic;
+                margin: 1em 0;
+            }
+
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.fun{
+    border: 0;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    font-size: 1em;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: backgraound-position 1s ease-in-out;
+    
+}
+
+.fun:hover,
+.fun:focus {
+    background-position: right;
+    cursor: pointer;
+}
+
+
+
+
+span{
+    color: red;
+    display: inline-block;
+    animation: spin 3s infinite ease
+
+}
+
+span:hover{
+    animation-play-state: paused;
+}
+
+@keyframes spin{
+
+0%{
+    rotate: 15deg;
+    transform: scale(1);
+}
+
+25%{
+rotate: 0deg
+
+},
+

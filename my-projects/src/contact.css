@@ -1,0 +1,247 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  background: #9b2a2a;
+  background: linear-gradient(
+    90deg,
+    rgba(155, 42, 42, 0.72) 8%,
+    rgba(42, 78, 155, 1) 33%,
+    rgba(64, 138, 155, 0.99) 65%,
+    rgba(87, 199, 156, 1) 79%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  height: 8rem;
+  position: relative;
+  bottom: 5em;
+ 
+
+}
+
+
+header{
+  height: 20px;
+  position: relative;
+  bottom: 10em;
+  margin-top: 3px;
+}
+
+
+header h1 {
+color: #213547;
+  
+   border-radius: 5px;
+  margin: 10px 0;
+  font-size: 36px;
+  position: relative;
+  right: 50rem; 
+  top: 60px;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.hero{
+  position: relative;
+  top: 5em;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  right: 30em;
+  gap: 15rem;
+  text-transform: capitalize;
+  color: #1b4e1d81;
+}
+a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.contact-form form {
+  
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* Input & Textarea */
+.contact-form input,
+.contact-form textarea {
+  padding: 0.9rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #f9fafb;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #6366f1; /* violet focus */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  background: #fff;
+}
+
+.btnn{
+  position: relative;
+  bottom: 80rem;
+  left: 20rem;
+  
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Button */
+.contact-form .btn {
+  padding: 0.9rem 1rem;
+  background: #6366f1;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form .btn:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+.contact-form .btn:active {
+  transform: translateY(0);
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Contact Form Section */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  margin: 20px;
+ background-color: rgba(0, 0, 0, 0.5);
+ 
+   
+}
+
+
+form {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(22, 189, 204, 1) 13%,
+    rgba(224, 91, 13, 1) 35%,
+    rgba(177, 183, 223, 1) 62%,
+    rgba(220, 155, 230, 1) 86%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+input {
+  width: 20rem;
+}
+.contact-form button {
+  position: relative;
+  right: 40rem;
+  top: 30px;
+  width: 70px;
+  text-decoration: chocolate;
+  border-radius: 5px;
+   
+}
+
+.more {
+  display: flex;
+height: 35em;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  bottom: 1em;
+  
+  gap: 1rem;
+ background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(108, 110, 57, 1) 35%, rgba(4, 193, 80, 1) 16%, rgba(0, 212, 255, 1) 100%);
+}
+
+img {
+
+position: relative;
+left: 1rem;
+  
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  
+ 
+ 
+  box-shadow: 0 28 8px rgba(0,0,0,0.2);
+  
+}
+.transs {
+   position: relative;
+   left: 12rem;
+   top: 40px;
+   
+  
+  padding: 1rem;
+  height: 30em;
+  width: 350px;
+  border-radius: 8px;
+   border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  
+}
+
+.transs div ,h2{ 
+  color: #e2e8f0;
+}
+
+.transs:hover {
+  transform: translateY(-6px);
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    position: relative;
+    left: 20em;
+    top: 30em;
+    
+    background-color: #f9f9f9; position: sticky;
+    margin: 1em 0.5em;
+  padding: 0.5em;
+   box-sizing: content-box;
+  border-radius: 5px;
+  background-color: rgba(121, 173, 216, 0.806);
+  }
+}
